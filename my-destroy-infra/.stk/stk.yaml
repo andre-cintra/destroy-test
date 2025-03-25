@@ -19,33 +19,7 @@ metadata:
   stack: wf-infras-stack@0.0.1
 spec:
   type: infra
-  plugins:
-    - name: cli-studio-v2/wf-infras-stack@0.0.1/wf-infra-plugin-01@0.0.1
-      alias: wf-infra-plugin-01-1742907606417
-      plugin-version-id: 01JEBFN7KRF5QH06QTZ2B8460B
-      stack-version-id: 01JEBFR3GPK85TBZEXRNC501Q6
-      type: infra
-      inputs:
-        region: us-east-1
-      inputs-envs: {}
-      connections:
-        generates: []
-        requires: []
-      links:
-        generates: []
-    - name: cli-studio-v2/wf-infras-stack@0.0.1/wf-infra-plugin-02@0.0.1
-      alias: wf-infra-plugin-02-1742907612706
-      plugin-version-id: 01JEBFNRMBYB6WRHXR4D3F2AG0
-      stack-version-id: 01JEBFR3GPK85TBZEXRNC501Q6
-      type: infra
-      inputs:
-        topic_name: teste
-      inputs-envs: {}
-      connections:
-        generates: []
-        requires: []
-      links:
-        generates: []
+  plugins: []
   global-inputs: {}
   global-computed-inputs: {}
   repository: git@github.com:andre-cintra/destroy-test.git
